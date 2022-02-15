@@ -100,7 +100,7 @@ class _RegistrationBodyState extends State<RegistrationBody> {
                   fullname: _usernameController.text ,
                   address: _addressController.text, phone: '017554654');
 
-
+print(user);
               fetchResult(user).then((res) {
 
                 print(res.body.toString());
